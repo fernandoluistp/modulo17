@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio Digital de Fernando Penachin</title>
+</head>
+<body>
+  <div class="container-fluid fundo p-0">
+      <nav class="navbar navbar-expand-lg nav-custom p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./images/logo.svg" class="logo d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-md-5 mt-md-5 mt-lg-0 me-auto">
+              <li class="nav-item mx-3 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-house"></i> Início
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html#apresentacao"><i class="fa-solid fa-eye"></i> Por onde começar?</a></li>
+                    <li><a class="dropdown-item" href="index.html#design-code"><i class="fa-solid fa-pen-nib"></i> Design</a></li>
+                    <li><a class="dropdown-item" href="index.html#softwares"><i class="fa-solid fa-photo-film"></i> Softwares</a></li>
+                    <li><a class="dropdown-item" href="index.html#linguagens"><i class="fa-solid fa-file-code"></i> Linguagens</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-3"><a class="nav-link" href="design.html"><i class="fa-regular fa-image"></i> Portfolio</a></li>
+                <li class="nav-item mx-3"><a class="nav-link" href="contato.html"><i class="fa-solid fa-comment"></i> Quero conversar!</a></li>
+            </ul>
+        </div>
+      </nav>
+
+    <div class="container-fluid">
+        <main class="internas-main row">
+            <nav class="lateral col-lg-2 px-0">
+
+                <ul class="menu-lateral mt-5">
+                    <li><a href="index.html"><div class="icone-container"><i class="fa-solid fa-house"></i></div> Início</a></li>
+                    <li><a href="design.html"><div class="icone-container"><i class="fa-regular fa-image"></i></div> Portfolio</a></li>
+                    <li><a href="contato.html"><div class="icone-container"><i class="fa-solid fa-comment"></i></div>Quero conversar!</a></li>
+                </ul>
+
+                <ul class="contatos">
+                    <li><a href="https://twitter.com/fernandoluistp" target="_blank" style="color:#ffffff; font-weight: bold;"><div class="icone-container"><img src="./images/logo-twitter.svg" alt="	Ícone Twitter" class="icone-menu-lateral"></div> Twitter</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5519991435042" target="_blank" style="color:#ffffff; font-weight: bold;"><div class="icone-container"><i class="fa-brands fa-whatsapp"></i></div> WhatsApp</a></li>
+                </ul>
+
+            </nav>
+
+            
+
+            <article class="col-lg-9 p-3">
+                <div class="row">
+                  <div class="col-12 p-4">
+                    <h1>Vamos conversar</h1>
+                  </div>
+                </div>
+               
+
+                <div class="row">
+                    
+                    
+
+                    <div class="formulario-container">
+                      <div class="col-12 p-4 internas-design-introducao ">
+                        <p>Por favor, preencha os campos abaixo para que eu possa entender melhor seu projeto. Agora, <em>se você não gosta de preencher formulários</em>, pode me enviar uma mensagem via <a href="https://api.whatsapp.com/send?phone=5519991435042" class="link-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>.</p>					</div>
+                      </div>
+                      <form method="post">
+
+                        <div class="row">
+                          <h3>Vamos começar uma ótima parceria. </h3>
+                        </div>
+          
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="formulario-card h-100">
+                            <h3>Sobre você</h3>
+
+                            <div class="row mb-3">
+                              <label for="nome" class="col-sm-3 col-form-label col-form-label-sm">Nome:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="nome" id="nome" class="form-control form-control-sm" placeholder="Digite seu nome" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="email" class="col-sm-3 col-form-label col-form-label-sm">E-mail:</label>
+                              <div class="col-sm-9">
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="form-control form-control-sm" required>
+                              </div>
+                            </div>
+                            
+                            <div class="row mb-3">
+                              <label for="fone" class="col-sm-3 col-form-label col-form-label-sm">Fone:</label>
+                              <div class="col-sm-9">
+                                <input type="tel" name="fone" id="fone" placeholder="+55 (00) 00000-0000" class="form-control form-control-sm" required>
+                              </div>
+                            </div>
+                            
+                            <div class="row mb-3">
+                              <label for="endereco" class="col-sm-3 col-form-label col-form-label-sm">Endereço:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="endereco" id="endereco" class="form-control form-control-sm" placeholder="Digite seu endereço, com número" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="bairro" class="col-sm-3 col-form-label col-form-label-sm">Bairro:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="bairro" id="bairro" class="form-control form-control-sm" placeholder="Digite seu bairro" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="Complemento" class="col-sm-3 col-form-label col-form-label-sm">Complemento:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="complemento" id="complemento" class="form-control form-control-sm" placeholder="Digite o complemento de seu endereço" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="cidade" class="col-sm-3 col-form-label col-form-label-sm">Cidade:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="endereco" id="endereco" class="form-control form-control-sm" placeholder="Digite sua cidade" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="estado" class="col-sm-3 col-form-label col-form-label-sm">Estado:</label>
+                              <div class="col-sm-9">
+                                <select class="form-select form-select-sm" id="estado" aria-label="Default select" required>
+                                  <option value="" selected>Selecione seu Estado</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="cep" class="col-sm-3 col-form-label col-form-label-sm">CEP:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="endereco" id="endereco" class="form-control form-control-sm" placeholder="Digite seu CEP" required>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                          <div class="col-md-6">
+                            <div class="formulario-card h-100">
+                            <h3>Sobre sua empresa</h3>
+
+                            <div class="row mb-3">
+                              <label for="empresa" class="col-sm-3 col-form-label col-form-label-sm">Sua empresa:</label>
+                              <div class="col-sm-9">
+                                <input type="text" name="empresa" id="empresa" placeholder="Sua empresa" class="form-control form-control-sm" placeholder="Sua empresa" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="url" class="col-sm-3 col-form-label col-form-label-sm">Seu site:</label>
+                              <div class="col-sm-9">
+                                <input type="url" name="url" id="url" class="form-control form-control-sm" placeholder="https://seusite.com" required>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="row mt-4">
+          
+                        <div class="col-12">
+                          <div class="formulario-card h-100">
+                          <h3>Sobre seu projeto</h3>
+          
+                          <div class="formulario-campo-50">
+                            <div class="row mb-3">
+
+
+                              <label for="empresa" class="col-sm-3 col-form-label col-form-label-sm">Qual serviço deseja?</label>
+                              <div class="col-sm-9">
+                                <div class="form-check form-check-inline">
+                                  <input type="radio" class="form-check-input" id="validationFormCheck2" name="quais-servicos" value="ux-ui-frontend" required>
+                                  <label class="form-check-label col-form-label-sm" for="validationFormCheck2">UX / UI / Front-End</label>
+                                </div>
+                                <div class="form-check mb-3 form-check-inline">
+                                  <input type="radio" class="form-check-input" id="validationFormCheck3" name="quais-servicos" value="design" required>
+                                  <label class="form-check-label col-form-label-sm" for="validationFormCheck3">Design</label>
+                                </div>
+                                <div class="form-check mb-3 form-check-inline">
+                                  <input type="radio" class="form-check-input" id="validationFormCheck4" name="quais-servicos" value="outros" required>
+                                  <label class="form-check-label col-form-label-sm" for="validationFormCheck3">Outros</label>
+                                </div>
+                               
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="briefing" class="form-label col-form-label-sm">Por favor, explique resumidamente seu projeto ou necessidade:</label>
+                                <textarea class="form-control"  name="briefing" id="briefing" rows="5" placeholder="Digite seu briefing"></textarea>
+                              </div>
+                            </div>
+                            
+                      
+                            <button type="submit" class="btn btn-primary" value="Enviar">Enviar</button>
+                            
+                          </div>
+         
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+
+            </article>
+        </main>
+     
+    </div>
+</div>
+  
+
+
+    <footer class="p-2 text-white text-center">
+			<p>Desenvolvido por Fernando Penachin</p>
+		</footer>
+
+    <!-- Modal 1-->
+<div class="modal fade" id="ModalCliente1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">MBI Motors / Concessionária BMW</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/design-01-lg.png" class="img-fluid">
+        <h2>MBI Motors / BMW</h2>
+							<p>Para a MBI Motors, concessionária BMW para as cidades de Campinas-SP e Nordeste Brasileiro, desenvolvi alguns materiais impressos tais como anúncios veiculados na Revista Veja locais, cartões para os clientes VIP e auxiliava na manutenção do site, inserindo novos conteúdos e adaptando o layout para o novo modelo determinado na época.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="ModalCliente2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">CLARUS Technology</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/design-02-lg.png" class="img-fluid">
+            <h2>CLARUS Technology</h2>
+							<p>Trabalho na CLARUS Technology do Brasil há vários anos e desenvolvi a identidade visual atual, desde a nova logotipia adotada em 2016, como grande parte do layout do site atual, atualizações de mídias sociais, materiais impressos e digitais para divulgação institucional e de produto, rótulos, projeções em 3D dos mesmos, papelaria e marcas e linhas secundárias, B2B e B2C.</p>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal 3-->
+<div class="modal fade" id="ModalCliente3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Andorinha Distribuidora</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/design-03-lg.png" class="img-fluid">
+        <h2>Andorinha Distribuidora</h2>
+				<p>Atendi na agência em que trabalhava a Andorinha Distribuidora de Medicamentos, para quem pude desenvolver diversos materiais, de anúncios, impressos, diversas edições de revistas-catálogos e um mascote para a empresa, o <em>Capitão Andorinha</em>. Este personagem figurou em todos os materiais da empresa, inclusive com quadrinhos no caderno personalizado da distribuidora.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="ModalCliente4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">COTUCA / Colégio Técnico da Unicamp</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/design-04-lg.png" class="img-fluid">
+            <h2>COTUCA - Colégio Unicamp</h2>
+						<p>Para o COTUCA - Colégio Técnico da Unicamp desenvolvi em alguns dos anos em que atendemos a instituição o material de publicidade de seu vestibulinho, incluindo flyers e cartazes. Nas últimas edições pude ainda fazer uma releitura da logomarca em 3D realista.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Inserir estados no select
+
+var estados = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"]
+
+function inserirEstados (){
+ 
+        for (var i = 0; i < estados.length; i++) {
+            var estado = estados[i];
+            //var linhaOption = document.createElement('option');
+            var selectEstado = document.getElementById('estado');
+            
+            var linhaEstado = document.createElement('option');
+            linhaEstado.value = estado;
+            linhaEstado.innerHTML = estado;
+
+            selectEstado.appendChild(linhaEstado);
+            }
+    
+    }
+    
+    document.addEventListener("DOMContentLoaded", inserirEstados);
+    </script>
+</body>
+</html>
